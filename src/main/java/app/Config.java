@@ -69,6 +69,7 @@ public class Config {
      * Get the GetTopGradeUseCase object.
      * @return GetTopGradeUseCase object.
      */
-    public GetTopGradeUseCase getTopGradeUseCase() { return new GetTopGradeUseCase(gradeDataBase);}
+    public GetTopGradeUseCase getTopGradeUseCase() {
+        return new GetTopGradeUseCase(gradeDataBase); }
 
 }
