@@ -36,6 +36,7 @@ public final class GetAverageGradeUseCase {
             sum += value;
             count++;
         }
+
         if (count == 0) {
             return 0;
         }
